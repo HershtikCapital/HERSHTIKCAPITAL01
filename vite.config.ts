@@ -5,8 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // התיקון האוטומטי: נקודה וסלאש אומרים ל-Vite לחפש את הקבצים יחסית למיקום הנוכחי, לא משנה מה שם התיקייה!
-    base: './', 
+    // עודכן לסלאש יחיד כדי שהאתר יעבוד בצורה מושלמת תחת הדומיין החדש שלך
+    base: '/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
