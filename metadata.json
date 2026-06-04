@@ -1,0 +1,8 @@
+{
+  "name": "Hershtik Capital",
+  "description": "US Real Estate Investment firm specializing in single-family residential acquisitions and partnerships in Texas and Tennessee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

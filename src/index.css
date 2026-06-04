@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;550;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Lora", "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-navy: #121212;
+  --color-brand-navy-light: #1F1F1F;
+  --color-brand-navy-deep: #000000;
+  --color-brand-stone: #FFFFFF;
+  --color-brand-stone-light: #F9F9F9;
+  --color-brand-stone-dark: #C5A880;
+  --color-brand-accent: #D4AF37;
+}
+
+body {
+  background-color: var(--color-brand-navy-deep);
+  color: #f8fafc;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
