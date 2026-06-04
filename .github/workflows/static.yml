@@ -25,10 +25,9 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 24 # שדרגנו לגרסה חדישה כדי להעלים את האזהרה השנייה
       - name: Install dependencies
-        run: npm ci
+        run: npm install # שינינו ל-install רגיל שלא דורש קובץ מנעול
       - name: Build
         run: npm run build
       - name: Upload artifact
